@@ -121,6 +121,9 @@ a {
 .bg-main {
     background-color: #62af9f;
 }
+.bg-gray{
+    background-color: rgba(231, 231, 231, 0.342);
+}
 /* font size */
 .fs-10 {
     font-size: 10px;
@@ -213,6 +216,11 @@ a {
 }
 input[type="number"] {
     -moz-appearance: textfield;
+}
+/* pagination */
+.page-link {
+  color: #73b4a6;
+  border-radius: 10px;
 }
 /* swiper */
 .swiper-pagination-bullet-active{
