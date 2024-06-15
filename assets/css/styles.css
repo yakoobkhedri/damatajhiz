@@ -335,6 +335,9 @@ header .showHover:hover .dropdown{
     .mt-sm-210{
         margin-top: 210px!important;
     }
+    .fs-sm-18{
+        font-size: 18px;
+    }
     .fs-sm-12{
         font-size: 12px;
     }
