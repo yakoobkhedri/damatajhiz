@@ -51,3 +51,20 @@ var customer= new Swiper(".customer", {
     disableOnInteraction: false,
   }
 });
+var product= new Swiper(".product", {
+  loop: true,
+  spaceBetween: 35,
+  slidesPerView: 1,
+  breakpoints: {
+    576: {
+      slidesPerView: 2,
+    },
+    1200: {
+      slidesPerView: 3,
+    }
+  },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  }
+});

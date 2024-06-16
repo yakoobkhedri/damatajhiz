@@ -159,18 +159,30 @@ a {
 .w-15 {
     width: 15px;
 }
+.w-42 {
+    width: 42px;
+}
 .w-55 {
     width: 55px;
+}
+.w-127 {
+    width: 127px;
 }
 /* height */
 .h-26{
     height: 26px;
+}
+.h-42{
+    height: 42px;
 }
 .h-44{
     height: 44px;
 }
 .h-55{
     height: 55px;
+}
+.h-59{
+    height: 59px;
 }
 /* margin top */
 .-mt-4 {
