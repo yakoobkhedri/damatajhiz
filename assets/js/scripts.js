@@ -68,3 +68,21 @@ var product= new Swiper(".product", {
     disableOnInteraction: false,
   }
 });
+var productDetail = new Swiper(".productDetail", {
+  spaceBetween: 10,
+  slidesPerView: 4,
+  freeMode: true,
+  loop:true,
+  watchSlidesProgress: true,
+});
+var productDetail2 = new Swiper(".productDetail2", {
+  spaceBetween: 10,
+  loop:true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    thumbs: {
+        Swiper: Swiper,
+    },
+});
